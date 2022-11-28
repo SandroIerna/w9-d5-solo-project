@@ -18,6 +18,7 @@ class NetflixCarousel extends Component {
         this.setState({ movies: data.Search, isLoading: false });
       } else {
         alert("Something went wrong :(");
+        this.setState({ ...this.state, isLoading: false });
       }
     } catch (error) {
       alert(error);

@@ -94,7 +94,7 @@ const NetflixNavbar = () => {
               <NavDropdown.Item href="#action/3.4">
                 <a
                   className="dropdown-item nav-dropdown-color"
-                  href="../login.html"
+                  href="public/login.html"
                 >
                   Signout Netflix
                 </a>
